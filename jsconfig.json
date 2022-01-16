@@ -1,0 +1,61 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@assets/*": [
+                "./src/assets/*"
+            ],
+            "@components": [
+                "./src/components"
+            ],
+            "@components/*": [
+                "./src/components/*"
+            ],
+            "@config/*": [
+                "./src/config/*"
+            ],
+            "@constants": [
+                "./src/constants"
+            ],
+            "@constants/*": [
+                "./src/constants/*"
+            ],
+            "@hooks/*": [
+                "./src/hooks/*"
+            ],
+            "@actions": [
+                "./src/store/actions"
+            ],
+            "@actions/*": [
+                "./src/store/actions/*"
+            ],
+            "@reducers": [
+                "./src/store/reducers"
+            ],
+            "@reducers/*": [
+                "./src/store/reducers/*"
+            ],
+            "@screens": [
+                "./src/screens"
+            ],
+            "@screens/*": [
+                "./src/screens/*"
+            ],
+            "@styles": [
+                "./src/styles"
+            ],
+            "@styles/*": [
+                "./src/styles/*"
+            ],
+            "@test/*": [
+                "./__tests__/*"
+            ],
+            "@": [
+                "./src"
+            ],
+            "@/*": [
+                "./src/*"
+            ]
+        }
+    }
+}
