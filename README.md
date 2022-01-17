@@ -75,8 +75,13 @@ mv ./android/app/build/outputs/apk/release/app-release.apk ./android/app/build/o
     - `app.json`
     - `android/app/src/main/res/values/strings.xml`
 ```bash
+npx react-native-rename <newName> -b <bundleIdentifier>
+```
+> Example:
+```bash
 npx react-native-rename "ReactNativeProject" -b com.ferdousanam.app
 ```
+> Documentation: [react-native-rename](https://github.com/junedomingo/react-native-rename)
 
 
 ## Credits
