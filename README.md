@@ -34,6 +34,9 @@ npm install
 node setup.js
 ```
 
+#### Place `google-services.json` file to `./android/app` directory
+This is required to use `Firebase Cloud Messaging`.
+
 #### For the first time run
 ```bash
 npm run start
