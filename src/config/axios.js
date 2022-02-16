@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {app} from './index';
 
-let APIKit = axios.create({
+export const APIKit = axios.create({
     baseURL: app.api_base_url,
 });
 
